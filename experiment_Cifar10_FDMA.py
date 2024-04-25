@@ -43,9 +43,9 @@ test_dataset=datasets.CIFAR10(root='./data',train=False,download=True,transform=
 batch_size=64
 list_para=[
 
-#{'model':'Standard','attack':'FDMA_M1','epsilon':8.0/255 ,'stepsize':0.007,'iter_max':20,'batch_size':batch_size,'div':1.0,'beta':0.3,'rho': 0.9,'early_stop':False},
-#{'model':'Standard','attack':'FDMA_M1','epsilon':16.0/255,'stepsize':0.007,'iter_max':20,'batch_size':batch_size,'div':1.0,'beta':0.3,'rho': 0.9,'early_stop':False},
-#{'model':'Standard','attack':'FDMA_M1','epsilon':32.0/255,'stepsize':0.007,'iter_max':20,'batch_size':batch_size,'div':1.0,'beta':0.3,'rho': 0.9,'early_stop':False},
+{'model':'Standard','attack':'FDMA_M1','epsilon':8.0/255 ,'stepsize':0.007,'iter_max':20,'batch_size':batch_size,'div':1.0,'beta':0.3,'rho': 0.9,'early_stop':False},
+{'model':'Standard','attack':'FDMA_M1','epsilon':16.0/255,'stepsize':0.007,'iter_max':20,'batch_size':batch_size,'div':1.0,'beta':0.3,'rho': 0.9,'early_stop':False},
+{'model':'Standard','attack':'FDMA_M1','epsilon':32.0/255,'stepsize':0.007,'iter_max':20,'batch_size':batch_size,'div':1.0,'beta':0.3,'rho': 0.9,'early_stop':False},
 {'model':'Standard','attack':'FDMA_M2','epsilon':8.0/255 ,'stepsize':0.007,'iter_max':20,'div':5.0,'beta':0.3,'rho': 0.9,'batch_size':batch_size,'early_stop':False},
 {'model':'Standard','attack':'FDMA_M2','epsilon':16.0/255,'stepsize':0.007,'iter_max':20,'div':5.0,'beta':0.3,'rho': 0.9,'batch_size':batch_size,'early_stop':False},
 {'model':'Standard','attack':'FDMA_M2','epsilon':32.0/255,'stepsize':0.007,'iter_max':20,'div':5.0,'beta':0.3,'rho': 0.9,'batch_size':batch_size,'early_stop':False},
