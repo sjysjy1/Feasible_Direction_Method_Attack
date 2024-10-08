@@ -1,4 +1,7 @@
 ## Feasible_Direction_Method_Attack
+#### This is the code for our paper:<br>
+J. Sun and H. Yu, "A Fast and Efficient Adversarial Attack Based on Feasible Direction
+Method", IEEE Access, vol. 12, pp. 82261-82276, 2024
 #### Requirements
 - pytorch
 - torchvision
